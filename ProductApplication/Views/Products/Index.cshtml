@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ProductApplication.Models.Product>
+
+<h2>Product List</h2>
+
+<a class="btn btn-primary" asp-action="Create">Add Product</a>
+
+<table class="table table-hover mt-3 mb-3 rounded-table table-light text-center">
+    <thead class="table-dark">
+        <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Category ID</th>
+            <th>Category Name</th>
+            <th>price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.ProductId</td>
+                    <td>@product.ProductName</td>
+                    <td>@product.CategoryId</td>
+                    <td>@product.Category.CategoryName</td>
+                    <td>₹@product.Price</td>
+                    <td>
+                        <a class="btn btn-info" asp-action="Edit" asp-route-id="@product.ProductId">Edit</a>
+                        <form asp-action="Delete" asp-controller="Products" method="post" onsubmit="return confirm('Are you sure?');" style="display:inline">
+                            <input type="hidden" name="id" value="@product.ProductId" />
+                            <button type="submit" class="btn btn-danger ms-3">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+<!-- Pagination -->
+<div class="text-center">
+    @for (int i = 1; i <= ViewBag.TotalPages; i++)
+    {
+        <a href="@Url.Action("Index", new { page = i, pageSize = ViewBag.PageSize })"
+           class="btn btn-sm @(ViewBag.CurrentPage == i ? "btn-primary" : "btn-outline-primary")">
+            @i
+        </a>
+    }
+</div>
+
+
+
+

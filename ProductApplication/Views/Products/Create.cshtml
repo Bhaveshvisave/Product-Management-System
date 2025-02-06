@@ -1,0 +1,27 @@
+﻿@model ProductApplication.Models.Product
+
+<h2>Add Products</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label>Product Name</label>
+        <input asp-for="ProductName" class="form-control" placeholder="Enter Product Name" required />
+        <span asp-validation-for="ProductName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Category</label>
+        <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-control" required>
+            <option value="">Select Category</option>
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Price</label>
+        <input type="number" step="0.01" asp-for="Price" class="form-control" placeholder="Enter the price" required />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+
+</form>

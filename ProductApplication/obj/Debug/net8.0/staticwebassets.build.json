@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "sQLNYTRU+TXD19pC7fV5v345bw2QaKOgTYBFbL3oAlQ=",
+  "Source": "ProductApplication",
+  "BasePath": "_content/ProductApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ProductApplication\\wwwroot",
+      "Source": "ProductApplication",
+      "ContentRoot": "C:\\Users\\HARSHAD\\source\\repos\\ProductApplication\\ProductApplication\\wwwroot\\",
+      "BasePath": "_content/ProductApplication",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\HARSHAD\\source\\repos\\ProductApplication\\ProductApplication\\wwwroot\\css\\products.css",
+      "SourceId": "ProductApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HARSHAD\\source\\repos\\ProductApplication\\ProductApplication\\wwwroot\\",
+      "BasePath": "_content/ProductApplication",
+      "RelativePath": "css/products#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8jbn3fzd0r",
+      "Integrity": "JInhmhkAPXBrCxc5N13wpBqvxjrsvb9eihgeI9MRIU8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\products.css"
+    },
+    {
+      "Identity": "C:\\Users\\HARSHAD\\source\\repos\\ProductApplication\\ProductApplication\\wwwroot\\js\\Products.js",
+      "SourceId": "ProductApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HARSHAD\\source\\repos\\ProductApplication\\ProductApplication\\wwwroot\\",
+      "BasePath": "_content/ProductApplication",
+      "RelativePath": "js/Products#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3r8b2a0bt1",
+      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Products.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/products.8jbn3fzd0r.css",
+      "AssetFile": "C:\\Users\\HARSHAD\\source\\repos\\ProductApplication\\ProductApplication\\wwwroot\\css\\products.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JInhmhkAPXBrCxc5N13wpBqvxjrsvb9eihgeI9MRIU8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 14:16:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8jbn3fzd0r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/products.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JInhmhkAPXBrCxc5N13wpBqvxjrsvb9eihgeI9MRIU8="
+        }
+      ]
+    },
+    {
+      "Route": "css/products.css",
+      "AssetFile": "C:\\Users\\HARSHAD\\source\\repos\\ProductApplication\\ProductApplication\\wwwroot\\css\\products.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JInhmhkAPXBrCxc5N13wpBqvxjrsvb9eihgeI9MRIU8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 14:16:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JInhmhkAPXBrCxc5N13wpBqvxjrsvb9eihgeI9MRIU8="
+        }
+      ]
+    },
+    {
+      "Route": "js/Products.3r8b2a0bt1.js",
+      "AssetFile": "C:\\Users\\HARSHAD\\source\\repos\\ProductApplication\\ProductApplication\\wwwroot\\js\\Products.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 13:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3r8b2a0bt1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Products.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
+    {
+      "Route": "js/Products.js",
+      "AssetFile": "C:\\Users\\HARSHAD\\source\\repos\\ProductApplication\\ProductApplication\\wwwroot\\js\\Products.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 13:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    }
+  ]
+}

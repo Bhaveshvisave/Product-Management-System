@@ -1,0 +1,14 @@
+﻿@model ProductApplication.Models.Category
+
+<h2>Add Category</h2>
+
+<form asp-action="Create" method="post" >
+    <div class="form-group mb-3">
+        <label>Category Name</label>
+        <input asp-for="CategoryName" class="form-control" placeholder="Enter Category Name" required/>
+        <span asp-validation-for="CategoryName" class="text-danger"></span>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Back</a>
+</form>

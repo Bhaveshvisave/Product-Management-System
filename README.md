@@ -16,6 +16,52 @@ The system is designed to be user-friendly and supports features like server-sid
 - **Responsive Design**: 
   - The application uses Bootstrap to provide a responsive layout, ensuring it works well across desktop and mobile devices.
 
+## Project Structure
+
+<pre>
+ProductApplication /
+│
+├── Controllers/
+│   └── CategoryController.cs       # Book management controller
+│   └── ProductsController.cs     # Member management controller
+│
+├── Models/
+│   └── Category.cs                  # Book model class
+│   └── Product.cs                # Represents a project entity
+│
+├── Data/
+│   └── AppDbContext.cs 
+│
+├── Migrations 
+│   └── 20250203185833_InitialCreate.cs
+│   └── 20250203212626_AddCategoryTable.cs
+│   └── AppDbContextModelSnapshot.cs
+│
+├── Views/
+│   ├── Category /
+│   │   └── Create.cshtml         # Book management view
+│   │   └── Edit.cshtml          # Edit book view
+│   │   └── Index.cshtml
+│   ├── Category /
+│   │   └── Create.cshtml         # Book management view
+│   │   └── Edit.cshtml          # Edit book view
+│   │   └── Index.cshtml
+│   ├── Shared/
+│   │       └── _Layout.cshtml       # Layout page (includes site-wide header, footer, and styles)
+│   └── _ViewImports.cshtml
+│   └── _ViewStart.cshtml   
+│   
+├── wwwroot/
+│   ├── css/
+│   │   └── site.css             # Custom CSS styles
+│   ├── js/
+│   │   └── site.js              # Custom JavaScript functionality
+│   └── images/
+│       └── logo.png             # Logo for the system
+│
+└── README.md                    # Project README file
+</pre>
+
 ## Technologies Used
 - **Backend**: ASP.NET Core MVC for web development.
 - **Database**: SQL Server and Entity Framework Core for ORM and data management.
@@ -41,9 +87,20 @@ Before you begin, make sure you have the following installed:
 
 2. Open the project: Navigate to the project directory and open the solution file in Visual Studio.
 
-3. Restore NuGet packages: Ensure all the necessary NuGet packages are restored.
+3. Restore NuGet packages:
+
+   Run the following command in Package Manager Console (PMC):
+   
+   ```bash
+   Update-Package -reinstall
+   ```
 
 4. Run the application: Press `F5` to build and run the application locally.
+
+5. Browse through the pages:
+
+    - **Category Management**: Manage Category details from the `Category` section.
+    - **Product Management**: View and manage Product details from the `Products` section.
 
 
 ## Contributing

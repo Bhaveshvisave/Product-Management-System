@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HARSHAD\\source\\repos\\ProductApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF5EA84-7A50-48FA-861C-3DB183B4B765}|ProductApplication\\ProductApplication.csproj|c:\\users\\harshad\\source\\repos\\productapplication\\productapplication\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FF5EA84-7A50-48FA-861C-3DB183B4B765}|ProductApplication\\ProductApplication.csproj|solutionrelative:productapplication\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF5EA84-7A50-48FA-861C-3DB183B4B765}|ProductApplication\\ProductApplication.csproj|c:\\users\\harshad\\source\\repos\\productapplication\\productapplication\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FF5EA84-7A50-48FA-861C-3DB183B4B765}|ProductApplication\\ProductApplication.csproj|solutionrelative:productapplication\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HARSHAD\\source\\repos\\ProductApplication\\ProductApplication\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProductApplication\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HARSHAD\\source\\repos\\ProductApplication\\ProductApplication\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "ProductApplication\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T12:13:10.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\HARSHAD\\source\\repos\\ProductApplication\\ProductApplication\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ProductApplication\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\HARSHAD\\source\\repos\\ProductApplication\\ProductApplication\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ProductApplication\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:46:39.492Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

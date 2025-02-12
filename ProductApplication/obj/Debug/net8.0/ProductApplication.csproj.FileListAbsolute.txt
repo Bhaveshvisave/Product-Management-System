@@ -174,3 +174,4 @@ C:\Users\HARSHAD\source\repos\ProductApplication\ProductApplication\obj\Debug\ne
 C:\Users\HARSHAD\source\repos\ProductApplication\ProductApplication\bin\Debug\net8.0\ProductApplication.staticwebassets.runtime.json
 C:\Users\HARSHAD\source\repos\ProductApplication\ProductApplication\obj\Debug\net8.0\ProductApplication.RazorAssemblyInfo.cache
 C:\Users\HARSHAD\source\repos\ProductApplication\ProductApplication\obj\Debug\net8.0\ProductApplication.RazorAssemblyInfo.cs
+C:\Users\HARSHAD\source\repos\ProductApplication\ProductApplication\obj\Debug\net8.0\ProductApplication.sourcelink.json

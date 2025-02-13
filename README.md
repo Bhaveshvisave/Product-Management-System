@@ -22,44 +22,44 @@ The system is designed to be user-friendly and supports features like server-sid
 ProductApplication /
 │
 ├── Controllers/
-│   └── CategoryController.cs       # Book management controller
-│   └── ProductsController.cs     # Member management controller
+│   └── CategoryController.cs      # Controller for managing categories
+│   └── ProductsController.cs      # Controller for managing products
 │
 ├── Models/
-│   └── Category.cs                  # Book model class
-│   └── Product.cs                # Represents a project entity
+│   └── Category.cs                # Model class for categories
+│   └── Product.cs                 # Model class for products
 │
 ├── Data/
-│   └── AppDbContext.cs 
+│   └── AppDbContext.cs            # Database context for Entity Framework Core
 │
 ├── Migrations 
-│   └── 20250203185833_InitialCreate.cs
-│   └── 20250203212626_AddCategoryTable.cs
-│   └── AppDbContextModelSnapshot.cs
+│   └── 20250203185833_InitialCreate.cs     # Initial database migration
+│   └── 20250203212626_AddCategoryTable.cs  # Migration for adding Category table
+│   └── AppDbContextModelSnapshot.cs        # Snapshot of the current database model
 │
 ├── Views/
 │   ├── Category /
-│   │   └── Create.cshtml         # Book management view
-│   │   └── Edit.cshtml          # Edit book view
-│   │   └── Index.cshtml
-│   ├── Category /
-│   │   └── Create.cshtml         # Book management view
-│   │   └── Edit.cshtml          # Edit book view
-│   │   └── Index.cshtml
+│   │   └── Create.cshtml          # View for creating a new category
+│   │   └── Edit.cshtml            # View for editing a category
+│   │   └── Index.cshtml           # View for listing categories
+│   ├── Products /
+│   │   └── Create.cshtml          # View for creating a new product
+│   │   └── Edit.cshtml            # View for editing a product
+│   │   └── Index.cshtml           # View for listing products
 │   ├── Shared/
-│   │       └── _Layout.cshtml       # Layout page (includes site-wide header, footer, and styles)
-│   └── _ViewImports.cshtml
-│   └── _ViewStart.cshtml   
+│   │       └── _Layout.cshtml     # Layout page (includes site-wide header, footer, and styles)
+│   └── _ViewImports.cshtml        # View import settings
+│   └── _ViewStart.cshtml          # Default view settings
 │   
 ├── wwwroot/
 │   ├── css/
-│   │   └── site.css             # Custom CSS styles
+│   │   └── site.css               # Custom CSS styles
 │   ├── js/
-│   │   └── site.js              # Custom JavaScript functionality
+│   │   └── site.js                # Custom JavaScript functionality
 │   └── images/
-│       └── logo.png             # Logo for the system
+│       └── logo.png               # Logo for the system
 │
-└── README.md                    # Project README file
+└── README.md                      # Project README file
 </pre>
 
 ## Technologies Used
